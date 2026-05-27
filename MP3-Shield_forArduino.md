@@ -5,7 +5,9 @@ Sparkfunn Hookup Guide [here](https://learn.sparkfun.com/tutorials/mp3-player-sh
 ----
 ### INSTALLING LIBRARIES
 
-This board uses the The "SFEMP3Shield" and "SdFat" libraries. Download them [here]
+This board uses the The "SFEMP3Shield" and "SdFat" libraries. Download them [here](https://github.com/kingston-hackSpace/Sound_boards/raw/refs/heads/main/Sparkfun-MP3-Player-Shield-Arduino-Library-master.zip)
+
+Move your files to corresponding Arduino libraries folder. For help installing the library, check out this [Installing an Arduino Library tutorial](https://learn.sparkfun.com/tutorials/installing-an-arduino-library).
 
 ----
 ### FILE TYPE
