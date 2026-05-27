@@ -21,3 +21,5 @@ MP3 files **MUST BE NAMED** AS: "track001.mp3", "track002.mp3", etc.
 
 ----
 ### Tutorial 1: BASIC PLAYBACK
+
+The following code reproduces one track ("track001.mp3") in loop. Add your track to the micro-SD card. Then upload [this code] to the Arduino board.
