@@ -18,7 +18,7 @@ The following sound boards can be used to trigger and play audio files (MP3 or W
 ### Teensy 4.0 + Audio Shield
 
 ---
-### Arduino + MP3 shield
+### [Arduino + MP3 shield](https://github.com/kingston-hackSpace/Sound_boards/blob/main/MP3-Shield_forArduino.md)
 
 ---
 ### Bare Conductive Touch Board
