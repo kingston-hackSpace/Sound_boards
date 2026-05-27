@@ -1,6 +1,6 @@
 # Sound boards available at hackSpace
 
-The following boards can be programme to trigger 
+The following sound boards can be used to trigger and play audio files (MP3 or WAV), as well as handle MIDI input/output, real-time audio processing, synthesis, sensor-based interaction, and networked or wireless control.
 
 ---
 ### Tsunami WAV Trigger
