@@ -36,6 +36,8 @@ The XIAO ESP32S3 Sense clips into the Expansion Board (line up the board-to-boar
 
 The sketch drives a single PWM audio signal out of pin **D7**. This is a raw square wave, so it needs a low-pass filter before it reaches the amplifier, otherwise the switching noise gets amplified along with the audio:
 
+See [XIAO ESP32S3-Sense PINOUT here](https://github.com/kingston-hackSpace/Sound_boards/blob/main/XIAO-ESP32-S3-Sense-Pinout.png)
+
 0. On the back of the amplifier, solder-short the **ENABLE MONO OUTPUT** jumper pads (and, optionally, the **MONO BASS BOOST** jumper to keep more low end).
 1. **D7 → resistor (~1kΩ) → amplifier input.** Wire the resistor in series between D7 and the Noisy Cricket's `Left-IN`, then bridge `Left-IN` to `Right-IN` so the same signal drives both input channels — in mono mode the board sums both channels at the output, so feeding only one side halves your output level.
 2. **Capacitor (~10nF) from the amplifier-input side of the resistor to GND.** This forms the low-pass filter with the resistor above, smoothing the PWM into an analog-ish signal.
