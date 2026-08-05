@@ -16,7 +16,7 @@ It ships with a camera and digital microphone attached, but for an audio-only pr
 - [SparkFun Noisy Cricket Stereo Amplifier - 1.5W](https://learn.sparkfun.com/tutorials/noisy-cricket-stereo-amplifier---15w-hookup-guide/all)
 - A speaker 4Ω 3W 
 - 1x resistor (1kΩ)
-- 1x capacitor (10nF) for a simple RC low-pass filter
+- 1x capacitor (10nF)
 - USB-C cable
 
 ----
