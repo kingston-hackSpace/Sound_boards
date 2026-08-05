@@ -12,7 +12,10 @@ The following sound boards can be used to trigger and play audio files (MP3 or W
 ### Bela Starter Kit
 
 ---
-### ESP32 + Music Maker
+### ESP32S3 + Music Maker
+
+---
+### XIAO ESP32S3 Sense 
 
 ---
 ### Teensy 4.0 + Audio Shield
