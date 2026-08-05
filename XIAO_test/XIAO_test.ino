@@ -1,4 +1,4 @@
-the playback is bad. /*
+/*
 This programme runs audio (track01.WAV) on startup
 
 REMINDER: enable PSRAM
