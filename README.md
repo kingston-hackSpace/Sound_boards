@@ -15,7 +15,7 @@ The following sound boards can be used to trigger and play audio files (MP3 or W
 ### ESP32S3 + Music Maker
 
 ---
-### XIAO ESP32S3 Sense 
+### [XIAO ESP32S3 Sense](https://github.com/kingston-hackSpace/Sound_boards/blob/main/XIAO-ESP32S3-Sense.md) 
 
 ---
 ### Teensy 4.0 + Audio Shield
