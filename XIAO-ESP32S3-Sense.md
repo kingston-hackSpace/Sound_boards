@@ -38,12 +38,14 @@ The sketch drives a single PWM audio signal out of pin **D7**. This is a raw squ
 
 See [XIAO ESP32S3-Sense PINOUT here](https://github.com/kingston-hackSpace/Sound_boards/blob/main/XIAO-ESP32-S3-Sense-Pinout.png)
 
-0. On the back of the amplifier, solder-short the **ENABLE MONO OUTPUT** jumper pads (and, optionally, the **MONO BASS BOOST** jumper to keep more low end).
+0. On the back of the amplifier, solder-short the **ENABLE MONO OUTPUT** jumper pads.
 1. **D7 → resistor (~1kΩ) → amplifier input.** Wire the resistor in series between D7 and the Noisy Cricket's `Left-IN`, then bridge `Left-IN` to `Right-IN` so the same signal drives both input channels — in mono mode the board sums both channels at the output, so feeding only one side halves your output level.
 2. **Capacitor (~10nF) from the amplifier-input side of the resistor to GND.** This forms the low-pass filter with the resistor above, smoothing the PWM into an analog-ish signal.
 3. **XIAO GND → Noisy Cricket GND** (both the input GND and power GND).
 4. **XIAO 5V → Noisy Cricket VCC.** The Noisy Cricket accepts 2.4-5.5V.
 5. **Speaker → Noisy Cricket `Left OUT` and `MONO` pins** — one wire to each. In mono mode these two pins are the speaker output; **do not** connect either speaker terminal to GND, per the [hookup guide](https://learn.sparkfun.com/tutorials/noisy-cricket-stereo-amplifier---15w-hookup-guide/all).
+
+See [wiring diagram here]
 
 
 ----
