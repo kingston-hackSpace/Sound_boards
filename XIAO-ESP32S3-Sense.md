@@ -22,12 +22,13 @@ It ships with a camera and digital microphone attached, but for an audio-only pr
 ----
 ### SETTING UP THE ARDUINO IDE
 
-1. Open **File → Preferences** and add this URL to *Additional boards manager URLs*:
+1. At the top left corner of your screen (MAC), click **Arduino IDE → Settings...** and add the following URL to ***Additional boards manager URLs***:
    `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
-2. Open **Tools → Board → Boards Manager**, search for **esp32** (by Espressif Systems) and install it.
-3. Select **Tools → Board → esp32 → XIAO_ESP32S3**.
-4. **Important:** go to **Tools → PSRAM** and set it to **OPI PSRAM**. Without this the sketch cannot allocate the audio buffer and will fail with "Not enough memory to load file!".
-5. Plug the XIAO in via USB-C and select the matching **Port**.
+2. Open **Tools → Board → Boards Manager**, search for **esp32 (by Espressif Systems)** and click **INSTALL**.
+3. You will see the installation processing at the botton of your Arduino IDE window. Wait until the installation process completes, it might take some minutes. 
+4. Select **Tools → Board → esp32 → XIAO_ESP32S3**.
+5. **Important:** go to **Tools → PSRAM** and set it to **OPI PSRAM**. Without this the sketch cannot allocate the audio buffer and will fail with "Not enough memory to load file!".
+6. Plug the XIAO in via USB-C and select the matching **Port**.
 
 ----
 ### WIRING
