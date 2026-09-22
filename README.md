@@ -20,10 +20,10 @@ The following sound boards can be used to trigger and play audio files (MP3 or W
 ### [XIAO ESP32S3 Sense](https://github.com/kingston-hackSpace/Sound_boards/blob/main/XIAO-ESP32S3-Sense.md) 
 
 ---
-### Teensy 4.0 + Audio Shield
+### [Teensy 4.0 + Audio Shield](https://github.com/kingston-hackSpace/Teensy)
 
 ---
 ### [Arduino + MP3 shield](https://github.com/kingston-hackSpace/Sound_boards/blob/main/MP3-Shield_forArduino.md)
 
 ---
-### Bare Conductive Touch Board
+### [Bare Conductive Touch Board](https://github.com/kingston-hackSpace/Capacitive-Touch-Sensors/blob/main/Bare_Conductive_Touch_Board.md)
