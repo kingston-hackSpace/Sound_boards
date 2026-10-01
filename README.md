@@ -1,12 +1,6 @@
-# Sound boards available at hackSpace
+# SOUND BOARDS available at hackSpace
 
 The following sound boards can be used to trigger and play audio files (MP3 or WAV), as well as handle MIDI input/output, real-time audio processing, synthesis, sensor-based interaction, and networked or wireless control.
-
-NOTE: [FOR **AUDIO RECORDING** see here](https://github.com/kingston-hackSpace/Audio_Recording/tree/main)
-
-
----
-# SOUND BOARDS available at hackSpace:
 
 - [XIAO ESP32S3 Sense](https://github.com/kingston-hackSpace/Sound_boards/blob/main/XIAO-ESP32S3-Sense.md) 
 
@@ -27,3 +21,13 @@ NOTE: [FOR **AUDIO RECORDING** see here](https://github.com/kingston-hackSpace/A
 - Bela Starter Kit
 
 - ESP32S3 + Music Maker
+
+---
+# AUDIO RECORDING
+
+Learn about [audio recording]((https://github.com/kingston-hackSpace/Audio_Recording/tree/main)) here
+
+---
+# AMPLIFIERS
+
+Learn about [sound amplifiers](https://github.com/kingston-hackSpace/Sound_amplifiers) here
