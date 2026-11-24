@@ -31,3 +31,12 @@ Learn about [audio recording]((https://github.com/kingston-hackSpace/Audio_Recor
 # AMPLIFIERS
 
 Learn about [sound amplifiers](https://github.com/kingston-hackSpace/Sound_amplifiers) here
+
+---
+# SPEAKERS
+
+- Cone Speakers
+
+- Transducers
+
+- [Sound exciters](https://www.youtube.com/watch?v=ktdQcapFriE)
